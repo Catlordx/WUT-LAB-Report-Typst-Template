@@ -37,6 +37,7 @@
     ]
   ]
    
+  // text的tracking参数用来设置字间距
   box(height: 140pt) 
   [
     #set text(18pt)
@@ -69,6 +70,7 @@
   box(height: 30pt)
   align(center)[
     #set text(size: 16pt)
+    // #h 用来插入水平距离
     #from #h(0.5cm) -- #h(0.5cm) #to#h(0.3cm)学年#h(0.8cm) 第#h(0.3cm)#text(size: 18pt)[#which]#h(0.3cm)学期
   ]
    
