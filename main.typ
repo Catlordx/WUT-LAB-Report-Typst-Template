@@ -1,4 +1,4 @@
-#import "conf.typ": * 
+#import "wut.typ": * 
 #let number = "000111222333"
 #let college = "计算机与人工智能学院"
 #let teacher = "你猜猜"
@@ -54,46 +54,48 @@
    
    
   #section_2_1()
-  #set text(font: "Lucida Calligraphy")
-  #align(center)[
-    Ode to the West Wind
+  #text(font: "Lucida Calligraphy")[
+    // #set text(font: "Lucida Calligraphy")
+    #align(center)[
+      Ode to the West Wind
+    ]
+    #align(center)[
+      O wild West Wind, thou breath1 of Autumn's2 being3,
+       
+      Thou, from whose unseen presence4 the leavesdead5
+       
+      Are driven, like ghosts6 from an enchanter7 fleeing,
+       
+      Yellow, and black, and pale, and hectic8 red,
+       
+      Pestilence-stricken9 multitudes10: O thou,
+       
+      Who chariotest11 to their dark wintry bed
+       
+      The winged12 seeds, where they lie cold and low,
+       
+      Each like a corpse13 within its grave14, until
+       
+      Thine azure15sister of the Spring shall blow
+       
+      Her clarion16o'er17the dreaming earth, and fill
+       
+      (Driving sweet buds like flocks18 to feed in air)
+       
+      With living hues19and odours20plain21and hill:
+       
+      Wild Spirit, which art moving everywhere;
+       
+      Destroyer22 and preserver23; hear, oh hear!
+    ]
   ]
-  #align(center)[
-    O wild West Wind, thou breath1 of Autumn's2 being3,
-     
-    Thou, from whose unseen presence4 the leavesdead5
-     
-    Are driven, like ghosts6 from an enchanter7 fleeing,
-     
-    Yellow, and black, and pale, and hectic8 red,
-     
-    Pestilence-stricken9 multitudes10: O thou,
-     
-    Who chariotest11 to their dark wintry bed
-     
-    The winged12 seeds, where they lie cold and low,
-     
-    Each like a corpse13 within its grave14, until
-     
-    Thine azure15sister of the Spring shall blow
-     
-    Her clarion16o'er17the dreaming earth, and fill
-     
-    (Driving sweet buds like flocks18 to feed in air)
-     
-    With living hues19and odours20plain21and hill:
-     
-    Wild Spirit, which art moving everywhere;
-     
-    Destroyer22 and preserver23; hear, oh hear!
-  ]
-  
+   
   #section_2_2()
   *插入图片*:
   #align(center)[
     #image("assets/logo.jpg")
   ]
-  *插入超链接*#link("https://typst.app/")[Typst]
+  *插入超链接*#link("https://typst.app/")[#text(font: "Lucida Calligraphy")[Typst]]
   #section_2_3()
   #lorem(62)
 ])

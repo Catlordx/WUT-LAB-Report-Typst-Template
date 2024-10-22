@@ -1,4 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/version-0.1.0-brightgreen)
+
 这是一个WUT实验报告Typst模板
 ## conf.typ
 
@@ -21,4 +22,4 @@
 
 ## demo.typ
 
-[main.typ](./main.typ)是一个示例文件，展示了如何使用 [conf.typ](conf.typ) 中定义的模板和函数生成实验报告。
+[main.typ](./main.typ)是一个示例文件，展示了如何使用 [wut.typ](wut.typ) 中定义的模板和函数生成实验报告。

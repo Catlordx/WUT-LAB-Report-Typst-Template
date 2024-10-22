@@ -1,0 +1,15 @@
+[package]
+name = "WUT-LAB-Report-Template"
+version = "0.1.1"
+entrypoint = "wut.typ"
+authors = ["@Wenjian Xiao"]
+license = "MIT"
+description = "A template for WUT LAB report"
+repository = "https://github.com/Catlordx/WUT-LAB-Report-Typst-Template"
+keywords = ["report", "WUT", "lab"]
+categories = ["template", "lab", "WUT"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "wut-template.jpg"

@@ -43,6 +43,7 @@
     #set text(18pt)
     #set table.hline(stroke: .6pt)
     #align(center)[
+      #set text(font: "FangSong_GB2312")
       #table(
         stroke: none,
         columns: (120pt, 190pt),
